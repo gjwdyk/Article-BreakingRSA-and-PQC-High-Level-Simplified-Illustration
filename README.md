@@ -742,7 +742,7 @@ Example of $M$:
 - [ ] ***Ciphertext*** (i.e. encrypted message) ${{\color{red}C} = (u, v)}$
 
 ```math
-{{\color{red}v} = \begin{pmatrix} \begin{bmatrix} 8 \\ 1 \\ 3 \end{bmatrix} , \begin{bmatrix} 10 \\ 3 \\ 10 \end{bmatrix} \end{pmatrix}}
+{{\color{red}C} = \begin{pmatrix} \begin{bmatrix} 8 \\ 1 \\ 3 \end{bmatrix} , \begin{bmatrix} 10 \\ 3 \\ 10 \end{bmatrix} \end{pmatrix}}
 ```
 
 <br><br>
