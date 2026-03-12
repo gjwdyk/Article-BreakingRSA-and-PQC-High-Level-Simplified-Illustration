@@ -390,19 +390,13 @@ Let's try to follow, trace and answer that thought.
 
 If we have one dimension lattice, and having Ciphertext point $C$ sit in/on the lattice somewhere, that point $C$ will have 2 neighboring lattice points.
 
-![One Dimension Neighbors](Image/OneDimensionNeighbors.png)
-
 <p align="center"><img src="./Image/OneDimensionNeighbors.png" width="42%"></p>
 
 If we have two dimensions lattice, and having Ciphertext point $C$ sit inside the lattice somewhere, that point $C$ will have 4 neighboring lattice points.
 
-![Two Dimensions Neighbors](Image/TwoDimensionsNeighbors.png)
-
 <p align="center"><img src="./Image/TwoDimensionsNeighbors.png" width="42%"></p>
 
 If we have three dimensions lattice, and having Ciphertext point $C$ sit inside the lattice somewhere, that point $C$ will have 8 neighboring lattice points.
-
-![Three Dimensions Neighbors](Image/ThreeDimensionsNeighbors.png)
 
 <p align="center"><img src="./Image/ThreeDimensionsNeighbors.png" width="42%"></p>
 
