@@ -392,15 +392,21 @@ If we have one dimension lattice, and having Ciphertext point $C$ sit in/on the 
 
 ![One Dimension Neighbors](Image/OneDimensionNeighbors.png)
 
+<p align="center"><img src="./Image/OneDimensionNeighbors.png" width="42%"></p>
+
 If we have two dimensions lattice, and having Ciphertext point $C$ sit inside the lattice somewhere, that point $C$ will have 4 neighboring lattice points.
 
 ![Two Dimensions Neighbors](Image/TwoDimensionsNeighbors.png)
+
+<p align="center"><img src="./Image/TwoDimensionsNeighbors.png" width="42%"></p>
 
 If we have three dimensions lattice, and having Ciphertext point $C$ sit inside the lattice somewhere, that point $C$ will have 8 neighboring lattice points.
 
 ![Three Dimensions Neighbors](Image/ThreeDimensionsNeighbors.png)
 
-With the pattern we have above, we can conclude that if we have $n$ dimensions, point $C$ which sits somewhere inside the lattice will have ${\color{red}2^n}$ neighbors, which one of those neighbors is the point $M$ we are looking for.
+<p align="center"><img src="./Image/ThreeDimensionsNeighbors.png" width="42%"></p>
+
+With the pattern we have above, we can conclude that if we have $n$ dimensions lattice, point $C$ which sits somewhere inside the lattice will have ${\color{red}2^n}$ neighbors, which one of those neighbors is the point $M$ we are looking for.
 With the PQC standards, the number of dimensions $n$ are standardized to be $512$, $768$ or $1024$.
 Assuming $n = 512$, the amount of lattice-point-neighbors which we need to search through for a single point $M$, is $2^{512}$ (which is a 155-digits decimal integer).
 The exact, full integer of $2^{512}$ is:
